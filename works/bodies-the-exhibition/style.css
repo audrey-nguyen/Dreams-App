@@ -295,15 +295,7 @@ p{
     margin-bottom: 80px;
 }
 
-.p2{
-    font-size: 8pt;
-    font-family: 'Open Sans', sans-serif;
-    margin-bottom: 50px;
-    color: gray;
-    text-align: center;
-    margin-right: 100px;
-    margin-left: 100px;
-}
+
 
 .info{
     display: flex;
@@ -316,4 +308,14 @@ p{
 section{
     display: flex;
     justify-content: center; 
+}
+
+p2{
+    font-size: 8pt;
+    font-family: 'Open Sans';
+    margin-bottom: 50px;
+    color: gray;
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 100px;
 }
