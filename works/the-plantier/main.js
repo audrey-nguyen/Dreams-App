@@ -7,6 +7,11 @@ $(document).ready(function(){
     $('.toggle-button').click(function(){
         $('.navbar').toggleClass("active");
      })
+     $('li').on("click",  function(){
+        $(this).closest('li').siblings().removeClass("active2");
+        $(this).addClass("active2")
+        console.log("print");
+     })
 })
 
 
@@ -31,7 +36,6 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $(window).scroll(function(){
-        // alert("Hello World! Welcome to Tutorialdeep."); 
         if($(window).scrollTop() > 50) {
             $(".navbar").css("top", "-100px");
         } else {

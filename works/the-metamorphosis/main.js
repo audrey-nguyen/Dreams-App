@@ -26,12 +26,12 @@ $(document).ready(function(){
         }
     })
 
+
 // split
 
 
 $(document).ready(function(){
     $(window).scroll(function(){
-        // alert("Hello World! Welcome to Tutorialdeep."); 
         if($(window).scrollTop() > 50) {
             $(".navbar").css("top", "-100px");
         } else {
