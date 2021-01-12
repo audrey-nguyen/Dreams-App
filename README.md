@@ -1,5 +1,5 @@
-# portfolio
-    $('li').on('click', function(){
-        // $('li').siblings().removeClass('.active2');
-        $('li').addClass('.active2');
-    })
+
+
+GUIDE FOR SITE:
+margin-top: 150px;
+margin-bottom: 100px;
