@@ -1,12 +1,11 @@
 
+/* navbar */
+
 header{
     font-family: 'Montserrat';
     font-weight: 500;
     font-size: 12px;
 }
-
-
-/* navbar */
 
 .navbar {
     position: fixed;
@@ -151,7 +150,15 @@ li a:hover::after{
 
 /* end hamburger */
 
-
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+    }
+    
+    @keyframes fade {
+        from {opacity: 1} 
+        to {opacity: 1}
+    }
 /* mobile view */
 
 @media (max-width: 700px) {
@@ -194,12 +201,4 @@ li a:hover::after{
 
 /* mobile view */
 
-.fade {
-animation-name: fade;
-animation-duration: 1.5s;
-}
 
-@keyframes fade {
-    from {opacity: 1} 
-    to {opacity: 1}
-}
