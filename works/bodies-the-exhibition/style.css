@@ -7,16 +7,12 @@
 
 .grid{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas:
-    "image1 image2"
-    "image3 image4"
+    "image1 image2 image3 image4"
     ;
     grid-gap: 10px;
     margin-bottom: 30px;
-    max-width: 800px;
-    
 }
 
 
