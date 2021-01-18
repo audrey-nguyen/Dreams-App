@@ -10,5 +10,3 @@ margin-right: 10%;
 
 
 TO DO LIST:
-- remove Kafka, replace with Yayoi Kusama
-- add in progress work + lightbox code
