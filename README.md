@@ -2,7 +2,7 @@
 
 GUIDE FOR SITE:
 margin-top: 150px;
-margin-bottom: 100px;
+margin-bottom: 50px;
 
 WORKS PAGE:
 margin-left: 10%;

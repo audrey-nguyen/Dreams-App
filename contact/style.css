@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    vertical-align: baseline;
 }
 
 
@@ -34,6 +33,7 @@ p{
   display: inline-block;
   font-size: 10px;
   font-family: 'Open Sans';
+  margin-bottom: 400px;
 }
 
 .button:hover{

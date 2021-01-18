@@ -70,10 +70,11 @@ body.lb-disable-scrolling {
 
 .lb-cancel {
   display: block;
-  width: 32px;
-  height: 32px;
+  width: 60px;
+  height: 60px;
   margin: 0 auto;
   background: url(../assets/controls/loading.gif) no-repeat;
+  background-size: 60px 60px;
 }
 
 .lb-nav {
@@ -105,6 +106,7 @@ body.lb-disable-scrolling {
   left: 0;
   float: left;
   background: url(../assets/controls/prev.png) left 48% no-repeat;
+  background-size: 55px 55px;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
   -webkit-transition: opacity 0.6s;
@@ -122,7 +124,8 @@ body.lb-disable-scrolling {
   width: 64%;
   right: 0;
   float: right;
-  background: url(../assets/controls/next.png) right 48% no-repeat;
+  background: url(../assets/controls/next.png)no-repeat right 48%;
+  background-size: 55px 55px;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
   -webkit-transition: opacity 0.6s;
@@ -184,9 +187,10 @@ body.lb-disable-scrolling {
 .lb-data .lb-close {
   display: block;
   float: right;
-  width: 30px;
-  height: 30px;
-  background: url(../assets/controls/close.png) top right no-repeat;
+  width: 40px;
+  height: 40px;
+  background: url(../assets/controls/close2.png) top right no-repeat;
+  background-size: 40px 40px;
   text-align: right;
   outline: none;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);

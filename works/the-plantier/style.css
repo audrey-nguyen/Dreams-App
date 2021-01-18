@@ -86,7 +86,7 @@ section{
 }
 
 p2{
-    font-size: 8pt;
+    font-size: 10pt;
     font-family: 'Open Sans';
     color: gray;
     text-align: left;
@@ -99,7 +99,7 @@ p2{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;  
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     width: 100%;
     
 }

@@ -95,9 +95,33 @@ section{
 }
 
 p2{
-    font-size: 8pt;
+    font-size: 10pt;
     font-family: 'Open Sans';
     color: gray;
     text-align: left;
     margin-bottom: 50px;
 }
+
+/* Lightbox Gallery */
+  
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;  
+    margin-bottom: 50px;
+    width: 100%;
+    
+}
+
+.gallery img{
+    width: 200px;
+    height: 150px;
+    transition: 1s;
+    margin: 10px;
+    object-fit: cover;
+   
+}
+
+
+
+/* Lightbox Gallery */
